@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- Code Written by: Cory Joseph
+     Photographs taken by: James Martin (my beloved room mate)
+	 https://www.instagram.com/james.internet
+  -->
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="Intelligence.css">
+  <title>Intelligence Test!</title>
+  <script type="text/javascript" src="Intelligence.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+  <p>
+    Welcome to the Intelligence Test<br>
+    Which number should replace the question mark "?"<br><br>
+    17&emsp;8&emsp;5&emsp;5<br>
+    13&emsp;7&emsp;5&emsp;4<br> <!-- For each row the sum of the first two columns is -->
+    6&emsp;12&emsp;6&emsp;3<br> <!-- equal to the multiple of the last two columns.   -->
+    10&emsp;6&emsp;4&emsp;[?]<br>
+    <input onchange="inputChecker(this.value)" class="inputbox"/>
+  </p>
+	<p id="check"></p>
+	<p>
+	<button type="button" onclick="window.location='quiz2.html'">
+	  Next Page
+	</button>
+	</p>
+</div>
+
+</body>
+</html>
